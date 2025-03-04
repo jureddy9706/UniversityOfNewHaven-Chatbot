@@ -43,8 +43,8 @@ python query_chatbot.py ``
 
 Uses pre-trained LLM embeddings to process and generate accurate responses.
 The chatbot converts user queries into vector embeddings and searches the best-matching university-related information.
-📖 Acknowledgment
 
+📖 Acknowledgment
 This project was developed under the guidance of Professor Dr.Ardiana Sula and Dr.Muhammad Aminul Islam as part of our Capstone Project at the University of New Haven.
 
 
