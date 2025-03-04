@@ -8,11 +8,7 @@ The chatbot gathers information from the following university sources:
 - [Undergraduate Catalog](https://catalog.newhaven.edu/content.php?catoid=31&navoid=2062)
 - [Graduate Catalog](https://catalog.newhaven.edu/content.php?catoid=30&navoid=2025)
 - [University Sitemap](https://www.newhaven.edu/sitemap.xml)
-
-## 📁 Project Structure
-
-college-chatbot/ │── data/ # Raw and cleaned extracted data │ ├── extracted_links.csv # Links extracted via web scraping │ ├── cleaned_texts/ # Processed text files │── models/ # Machine learning models │ ├── chatbot_model.pkl # Trained chatbot model │ ├── vector_store/ # Vector embeddings │── notebooks/ # Jupyter notebooks │ ├── siri_cap.ipynb # LLM model notebook │ ├── php_extract.ipynb # Web scraping notebook │── scripts/ # Python scripts for automation │ ├── scrape_data.py # Scrapes and processes university data │ ├── train_model.py # Trains the chatbot model │ ├── query_chatbot.py # Queries chatbot responses │── webapp/ # Chatbot UI components │ ├── index.html # Front-end interface │ ├── app.js # JavaScript functionality │ ├── styles.css # CSS styles │── requirements.txt # List of dependencies │── README.md # Project documentation │── .gitignore # Excludes unnecessary files │
-
+ 
 
 ## 🚀 Features
 ✔ **Web Scraping** – Extracts relevant university information from official sources  
@@ -29,4 +25,26 @@ git clone https://github.com/YOUR_USERNAME/college-chatbot.git
 cd college-chatbot
 2️⃣ Install Dependencies
 pip install -r requirements.txt
+3️⃣ Run the Chatbot
+To run in CLI mode:
+python query_chatbot.py
+
+🛠️ Technology Stack
+
+🔹 Python – Backend processing
+🔹 BeautifulSoup, Scrapy – Web scraping
+🔹 ChromaDB – Vector storage for search
+🔹 FastAPI – Web API for chatbot responses
+🔹 LLM (Large Language Models) – Enhances response accuracy
+🔹 HTML, CSS, JavaScript – Front-end interface
+
+📊 Machine Learning Model
+
+Uses pre-trained LLM embeddings to process and generate accurate responses.
+The chatbot converts user queries into vector embeddings and searches the best-matching university-related information.
+📖 Acknowledgment
+
+This project was developed under the guidance of Professor Dr.Ardiana Sula and Dr.Muhammad Aminul Islam as part of our Capstone Project at the University of New Haven.
+
+
 
