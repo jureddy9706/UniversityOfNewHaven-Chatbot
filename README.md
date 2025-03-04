@@ -20,14 +20,15 @@ The chatbot gathers information from the following university sources:
 
 ## ⚡ Installation & Setup
 ### 1️⃣ Clone the Repository
-```bash
+``bash
 git clone https://github.com/YOUR_USERNAME/college-chatbot.git
 cd college-chatbot
 2️⃣ Install Dependencies
 pip install -r requirements.txt
 3️⃣ Run the Chatbot
 To run in CLI mode:
-python query_chatbot.py
+python query_chatbot.py ``
+
 
 🛠️ Technology Stack
 
